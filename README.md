@@ -23,7 +23,7 @@ Origin: извлечён из реального проекта `meteora-bot/uni
 ## Установка
 
 ```bash
-git clone https://github.com/<your-username>/university-template.git ~/university-template
+git clone https://github.com/kkarpushin/university-template.git ~/university-template
 # либо в любое удобное место
 ```
 
@@ -211,7 +211,7 @@ git init
 
 ## История
 
-Template собран из `meteora-bot/university/` (2026-04-22, после обработки 5 Deep Research responses + 3 YouTube видео + 36 academic sources по LP/DLMM/on-chain strategies). Extracted skeleton = generic pattern, отделённый от контента meteora-bot.
+Template извлечён из реальной работающей Zettelkasten-базы (2026, проект `meteora-bot`) как generic pattern. Всё проектное содержимое (источники, заметки, утверждения, синтезы, экспериментальный код) оставлено в исходном проекте — здесь только методология, шаблоны и пустой скелет.
 
 ## Возможные улучшения (на будущее)
 

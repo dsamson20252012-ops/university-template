@@ -1,14 +1,14 @@
 ---
 id: c-NNNN
 statement: '<проверяемое утверждение одной фразой>'
-domain: [impermanent-loss | fees | hedging | regime-classification | rebalancing | ...]
+domain: [<тема-1> | <тема-2> | ...]  # домены таксономии, к которым относится
 confidence: H | M | L
 evidence: [n-..., n-...]
 contradictions: []
 sources: [src-...]
 testable: true | false
-test_method: '<как проверить: бэктест на таких-то данных по такому-то сценарию>'
-implication_for_bot: '<что конкретно это значит для нашего кода>'
+test_method: '<как проверить: бэктест на таких-то данных / эксперимент / сравнение с фактами>'
+implication_for_project: '<что конкретно это значит для кода/стратегии/решения проекта>'
 created: YYYY-MM-DD
 ---
 
@@ -26,6 +26,6 @@ created: YYYY-MM-DD
 
 Что могло бы опровергнуть. Где мы на тонком льду.
 
-## Implication for bot (подробнее)
+## Implication for project (подробнее)
 
-Конкретные поведенческие выводы: что именно должен делать/не делать агент.
+Конкретные поведенческие выводы: что именно должен делать/не делать продукт/агент/код.
